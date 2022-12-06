@@ -66,8 +66,6 @@ func (b *Buffer) answer(size int) bool {
 	return true
 }
 
-// Number of spaces
-// 4N - 1
 func main() {
 	data := load_data("input.txt")[0]
 	var buf1 Buffer
